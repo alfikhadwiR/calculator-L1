@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: viga;
+}
+
+body {
+    background: rgb(145, 184, 255);
+    height: 637px;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) translateY(-50%);
+    width: fixed;
+    background: rgb(0, 0, 0, 0.4);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 25px;
+}
+
+.btn-green {
+    background-color: white;
+    color: black;
+}
+
+.textarea {
+    width: 240px;
+    margin: 4px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    color: #000000;
+    border-radius: 25px;
+    text-align: right;
+}
